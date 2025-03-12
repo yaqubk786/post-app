@@ -19,7 +19,7 @@ export default function PostsList() {
   );
 
   return (
-    <div>
+    <>
       <h1>Posts</h1>
       <SearchBar />
       {status === "loading" && <p>Loading...</p>}
@@ -31,6 +31,6 @@ export default function PostsList() {
           </li>
         ))}
       </ul>
-    </div>
+    </>
   );
 }
