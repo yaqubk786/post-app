@@ -1,10 +1,10 @@
-# 📰 Redux Posts App
+# Redux Posts App
 
 This is a small React application that fetches posts from the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/posts), displays them in a list, and allows users to search and view post details. It uses **Redux Toolkit** for global state management and **React Router** for navigation.
 
 ---
 
-## ⚙️ Tech Stack 
+## Tech Stack 
 
 - React (CRA)
 - Redux Toolkit
@@ -14,7 +14,7 @@ This is a small React application that fetches posts from the [JSONPlaceholder A
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the Repository 
 
