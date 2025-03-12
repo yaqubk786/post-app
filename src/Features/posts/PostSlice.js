@@ -10,9 +10,8 @@ export const fetchPosts = createAsyncThunk('posts/fetchPosts', async () => {
   return response.data 
 })
 
-/**
- * Creating a Redux slice for posts feature.
- */
+// Creating a Redux slice for posts feature.
+
 const postsSlice = createSlice({
   name: 'posts', // Name of the slice
   initialState: {

@@ -12,6 +12,17 @@
   border: 1px solid #3b82f6;
   border-radius: 4px;
 }
+.listBox li {
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+.listBox li a {
+  text-decoration: none;
+}
+.listBox li a:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
 .detailBox {
   background-color: #e9ecff;
   padding: 20px;
@@ -21,8 +32,8 @@
 .searchBar input {
   width: 300px;
   border: 1px solid #d1d5db;
-  padding: 10px;
-  border-radius: 4px;
+  padding: 12px;
+  border-radius: 20px;
 }
 .searchBar input:focus {
   border: 1px solid #3b82f6 !important;
