@@ -39,3 +39,18 @@
   border: 1px solid #3b82f6 !important;
   outline: none;
 }
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  margin: 0 3px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

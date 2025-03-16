@@ -12,6 +12,7 @@ export default function PostDetail() {
   return (
     <>
       <div>
+      <h1>Detail Page</h1>
         <div className="detailBox">
           <h2>{post.title}</h2>
           <p>{post.body}</p>
